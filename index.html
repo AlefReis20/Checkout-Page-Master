@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/devchallenges.png" type="image/x-icon">
+  <title> Checkout</title>
+</head>
+
+<body>
+
+  <nav>
+    <h1>Checkout</h1>
+
+    <section>
+      <h3 class="first-h3">Contact Information</h3>
+      <p>E-mail</p>
+      <input class="input-email" type="email" placeholder="Enter your email...">
+      <p>Phone</p>
+      <input class="input-phone" type="tel" placeholder="Enter your phone...">
+    </section>
+
+    <section>
+      <h3 class="second-h3">Shipping Adress</h3>
+      <form>
+        <p>Full name</p>
+        <input class="input-name" type="text" placeholder="Your name...">
+        <p>Adress</p>
+        <input class="input-adress" type="text" placeholder="Your adress...">
+        <p>City</p>
+        <input class="input-city" type="text" placeholder="Your city...">
+        <div class="display">
+          <p>Country</p>
+          <input class="input-country" type="" placeholder="Your country..." list="country">
+          <datalist id="country">
+            <option>United States of America</option>
+            <option>Brazil</option>
+            <option>England</option>
+          </datalist>
+          <p class="p-postal">Postal code</p>
+          <input class="input-postal" type="text" placeholder="Your postal code...">
+        </div>
+        <br>
+        <input class="input-checkbox" type="checkbox" name="" id="">
+        <span>Save this information for next time</span> <br>
+        <button>Continue</button>
+      </form>
+    </section>
+  </nav>
+
+  <aside>
+    <img class="image1" src="./assets/photo1.png" alt="Vintage Backbag">
+    <div class="text-image1">
+      <h4>Vintage Backbag</h4>
+      <span class="new-price">$54.99</span> <span class="old-price">$94.99</span>
+      <div class="box">
+        <span class="background-span">-</span>
+        <span class="number">1</span>
+        <span class="background-span">+</span>
+      </div>
+    </div>
+
+    <img class="image2" src="./assets/photo2.png" alt="Levi Shoes">
+    <div class="text-image2">
+      <h4>Levi Shoes</h4>
+      <span class="new-price">$74.99</span> <span class="old-price">$124.99</span>
+      <div class="box">
+        <span class="background-span">-</span>
+        <span class="number">1</span>
+        <span class="background-span">+</span>
+      </div>
+    </div>
+
+    <div class="end-aside">
+      <hr>
+      <span class="left">Shipping</span> <span class="right-top">$19</span>
+      <hr>
+      <span class="left">Total</span> <span class="right-bottom">$148.98</span>
+    </div>
+
+  </aside>
+
+  <footer>
+    <p>Created by <a href="https://github.com/AlefReis20" target="_blank">Alef Reis -</a>
+      <a href="https://devchallenges.io/" target="_blank">devchallenges.io</a>
+    </p>
+  </footer>
+
+</body>
+
+</html>

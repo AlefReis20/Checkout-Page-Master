@@ -1,0 +1,392 @@
+/*----- General -----*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 64px;
+
+}
+
+h1,
+h2,
+h3 {
+    transform: rotate(-0.02deg);
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 44px;
+    color: #4E5150;
+    margin-bottom: 51px;
+
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+}
+
+.first-h3 {
+    margin-top: 51px;
+    margin-bottom: 15px;
+}
+
+.second-h3 {
+    margin-top: 58px;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 16px;
+    line-height: 20px;
+    color: #4E5150;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+section span {
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    transform: rotate(-0.02deg);
+    vertical-align: super;
+}
+
+form span {
+    margin-top: 23px;
+    margin-left: 11px;
+}
+
+button {
+    width: 166px;
+    height: 54px;
+    background: #F2994A;
+    border-radius: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-left: 300px;
+    margin-top: 23px;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+/*----- INPUT'S -----*/
+
+input {
+    height: 56px;
+    width: 465px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    text-indent: 50px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    text-indent: 50px;
+    vertical-align: text-bottom;
+}
+
+.input-postal,
+.input-country {
+    width: 217px;
+}
+
+.input-email {
+    background: url(./icons/email.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-phone {
+    background: url(./icons/phone.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-name {
+    background: url(./icons/name.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-adress {
+    background: url(./icons/adress.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-city {
+    background: url(./icons/city.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-country {
+    background: url(./icons/country.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-postal {
+    background: url(./icons/postal.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-email {
+    background: url(./icons/email.png) no-repeat left;
+    background-size: 20px;
+    background-position-x: 14px;
+}
+
+.input-checkbox {
+    width: 21px;
+    height: 21px;
+    border: 1px solid #828282;
+    border-radius: 4px;
+}
+
+.display p {
+    display: inline-block;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 0px;
+}
+
+.display .p-country {
+    margin-left: px;
+}
+
+.display .p-postal {
+    margin-left: 25px;
+}
+
+.display input {
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.display .input-postal {
+    margin-left: 25px;
+}
+
+.display {
+    margin-top: 35px;
+}
+
+/*----- ASIDE -----*/
+
+aside {
+    width: 383px;
+    height: 535px;
+    margin-left: 112px;
+    margin-top: 170px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    display: inline-block;
+    position: absolute;
+}
+
+aside h4 {
+    margin-bottom: 7.5px;
+}
+
+.new-price {
+    font-size: 16px;
+    line-height: 20px;
+    color: #F2994A;
+    transform: rotate(-0.02deg);
+}
+
+.old-price {
+    text-decoration: line-through;
+    margin-left: 5px
+}
+
+.box {
+    width: 134.25px;
+    height: 52px;
+    border: 1px solid #828282;
+    border-radius: 12px;
+    margin-top: 28.5px;
+    margin-bottom: 34px;
+    text-align: center;
+}
+
+.background-span {
+    background: #E0E0E0;
+    border-radius: 4px;
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin: 10% auto;
+}
+
+img {
+    width: 134px;
+    height: 136px;
+    border-radius: 25px;
+}
+
+.image1 {
+    margin: 34px 20px 0px 30px
+}
+
+.image2 {
+    display: block;
+    margin: 31px 20px 95px 30px;
+}
+
+.text-image1 {
+    display: inline-block;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.text-image2 {
+    position: relative;
+    left: 184px;
+    bottom: 225px;
+}
+
+aside span {
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.end-aside {
+    position: absolute;
+    bottom: 14px;
+}
+
+hr {
+    width: 327px;
+    margin-left: 30px;
+    margin: 8px 30px;
+}
+
+.left {
+    font-size: 18px;
+    line-height: 22px;
+    color: #333333;
+    margin-left: 30px;
+}
+
+.right-top,
+.right-bottom {
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    margin-right: 27px;
+}
+
+.right-top {
+    margin-left: 210px;
+}
+
+.right-bottom {
+    margin-left: 220px;
+}
+
+.number {
+    padding: 0 15px;
+}
+
+/*----- FOOTER -----*/
+
+footer {
+    margin-top: 180px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333333;
+    cursor: pointer;
+}
+
+/*----- MOBILE -----*/
+@media screen and (max-width: 800px) {
+
+    h1 {
+        margin-top: 32px;
+        position: relative;
+        bottom: 533px;
+        margin-left: 5px;
+    }
+
+    aside {
+        position: relative;
+        bottom: 1054px;
+        width: 465px;
+    }
+
+    
+    hr {
+        width: 390px;
+    }
+
+    .right-top {
+        margin-left: 275px;
+    }
+    
+    .right-bottom {
+        margin-left: 285px;
+    }
+
+
+    nav {
+        width: 349px;
+        position: relative;
+        top: 493px;
+        margin-left: 110px;
+    }
+
+    .display .input-postal {
+        margin-left: 25px;
+        position: absolute;
+    }
+
+    .input-country,
+    .input-postal {
+        width: 208px;
+    }
+
+    .input-country {
+        margin-right: 10px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    
+}
